@@ -2,8 +2,6 @@
 
 
 
-
-
 ### Introduction
 
 “The share price of JPMorgan Chase is going up. It’s on an increasing trend. People are selling their stocks and making money.”
@@ -30,6 +28,8 @@ Reinforcement learning is modeled as a Markov Decision Process (MDP):
 •	P(s,s’)=>P(st+1=s’|st=s,at=a) is the transition probability from one state s to s’
 
 •	R(s,s’) – Immediate reward for any action
+
+![image](https://user-images.githubusercontent.com/124342508/236712141-01b18610-6541-44c7-877b-23df6666cddc.png)
 
 
 
@@ -76,6 +76,7 @@ Q-learning is an algorithm for reinforcement learning that operates without a pr
 4.	Click on the "Download" button to initiate the CSV file download.
 
 
+![image](https://user-images.githubusercontent.com/124342508/236712200-fea4fbad-7fa5-4564-9bf0-925b37b49132.png)
 
  
 
@@ -110,6 +111,9 @@ Based on the action predicted by the model, the buy/sell operation adds or deduc
 
 In this case we are training the model with stock prices of JPMC Bank from May 2022 till March 2023
 
+![image](https://user-images.githubusercontent.com/124342508/236712240-e466f48f-b44d-4afe-94f3-bd5cd72dc9f6.png)
+
+![image](https://user-images.githubusercontent.com/124342508/236712263-f1ed8cd5-653a-4072-b61b-47d05fd52bec.png)
 
 
 
@@ -119,17 +123,19 @@ After training the model using new data, its performance is assessed by conducti
 
 To evaluate the model, we use stock prices from March ’22 till May ’22 to see what the profit could be per stock and the profit if we traded 100 units of stock 
 
- 
+ ![image](https://user-images.githubusercontent.com/124342508/236712283-989d9375-fd16-4a64-a6d8-a31044bb572f.png)
+
 
 ### Conclusion
 Stock predictions using reinforcement learning is yielding positive results, showcasing the potential of Q-learning through various experimental approaches. Further exploration and advancements in reinforcement learning research will enhance its application and instill greater confidence in its capabilities.
 
 
 
-
-
 ### References: 
 [1] Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A. A., Veness, J., Bellemare, M. G., ... & Petersen, S. (2015). Human-level control through deep reinforcement learning. Nature, 518(7540), 529-533.
+
 [2] Shah, E. (2020). Predicting Stock Prices using Reinforcement Learning [Blog post]
-[3] Xiong, Z., Liu, D., Wu, S., & Bai, Q. (2018). Stock price prediction based on reinforcement learning algorithm. International Journal of Intelligent Computing and Cybernetics, 11(1), 78-95. [4] Guo, C., Zhang, J., Yang, Z., & Yu, Y. (2017). Deep reinforcement learning for trading. In Proceedings of the 34th International Conference on Machine Learning-Volume 70 (pp. 1323-1332). JMLR. org.
-![image](https://user-images.githubusercontent.com/124342508/236711580-b086d11b-439d-449f-bf7b-9e1b3f346dbb.png)
+
+[3] Xiong, Z., Liu, D., Wu, S., & Bai, Q. (2018). Stock price prediction based on reinforcement learning algorithm. International Journal of Intelligent Computing and Cybernetics, 11(1), 78-95. 
+
+[4] Guo, C., Zhang, J., Yang, Z., & Yu, Y. (2017). Deep reinforcement learning for trading. In Proceedings of the 34th International Conference on Machine Learning-Volume 70 (pp. 1323-1332). JMLR. org.
