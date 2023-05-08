@@ -130,6 +130,6 @@ Stock predictions using reinforcement learning is yielding positive results, sho
 
 ### References: 
 [1] Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A. A., Veness, J., Bellemare, M. G., ... & Petersen, S. (2015). Human-level control through deep reinforcement learning. Nature, 518(7540), 529-533.
-[2] Shah, E. (2020). Predicting Stock Prices using Reinforcement Learning [Blog post]. Retrieved from [https://www.analyticsvidhya.com/blog/2020/10/reinforcement-learning-stock-price-prediction]
+[2] Shah, E. (2020). Predicting Stock Prices using Reinforcement Learning [Blog post]
 [3] Xiong, Z., Liu, D., Wu, S., & Bai, Q. (2018). Stock price prediction based on reinforcement learning algorithm. International Journal of Intelligent Computing and Cybernetics, 11(1), 78-95. [4] Guo, C., Zhang, J., Yang, Z., & Yu, Y. (2017). Deep reinforcement learning for trading. In Proceedings of the 34th International Conference on Machine Learning-Volume 70 (pp. 1323-1332). JMLR. org.
 ![image](https://user-images.githubusercontent.com/124342508/236711580-b086d11b-439d-449f-bf7b-9e1b3f346dbb.png)
