@@ -50,8 +50,11 @@ The process of designing a reinforcement learning model involves the following s
 MDP for Stock Price Prediction:
 
 Agent – An Agent A that works in Environment E
+
 Action – Buy/Sell/Hold
+
 States – Data values
+
 Rewards – Profit / Loss
 
 
