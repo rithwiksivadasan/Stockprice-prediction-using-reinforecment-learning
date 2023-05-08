@@ -23,8 +23,11 @@ Reinforcement learning demonstrates effectiveness even when limited historical d
 	
 Reinforcement learning is modeled as a Markov Decision Process (MDP):
 •	An Environment E and agent states S
+
 •	A set of actions A taken by the agent
+
 •	P(s,s’)=>P(st+1=s’|st=s,at=a) is the transition probability from one state s to s’
+
 •	R(s,s’) – Immediate reward for any action
 
 
@@ -38,10 +41,10 @@ Reinforcement learning can be employed to predict the price movements of a parti
 The process of designing a reinforcement learning model involves the following steps:
 
 1.	Importing the necessary libraries for the task.
-2.	Creating an agent that will make all the decisions.
-3.	Defining essential functions for value formatting, sigmoid function implementation, reading data files, etc.
-4.	Training the agent using appropriate algorithms and techniques.
-5.	Evaluating the performance of the agent based on predefined metrics and criteria.
+3.	Creating an agent that will make all the decisions.
+4.	Defining essential functions for value formatting, sigmoid function implementation, reading data files, etc.
+5.	Training the agent using appropriate algorithms and techniques.
+6.	Evaluating the performance of the agent based on predefined metrics and criteria.
 
 
 
