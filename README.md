@@ -22,6 +22,7 @@ Reinforcement learning, in addition to supervised and unsupervised learning, is 
 Reinforcement learning demonstrates effectiveness even when limited historical data is available. It leverages the value function, which is calculated based on the policy determined for each action.
 	
 Reinforcement learning is modeled as a Markov Decision Process (MDP):
+
 •	An Environment E and agent states S
 
 •	A set of actions A taken by the agent
@@ -85,11 +86,7 @@ Q-learning is an algorithm for reinforcement learning that operates without a pr
 
 ### Implementing the Model in Python
 
-#### Importing Libraries
-To construct the reinforcement learning model, import the necessary Python libraries for constructing the neural network layers, as well as the NumPy library for performing fundamental operations.
 
-
- 
 
 #### Creating Agent
 
@@ -131,7 +128,7 @@ Stock predictions using reinforcement learning is yielding positive results, sho
 
 
 
-References: 
+### References: 
 [1] Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A. A., Veness, J., Bellemare, M. G., ... & Petersen, S. (2015). Human-level control through deep reinforcement learning. Nature, 518(7540), 529-533.
 [2] Shah, E. (2020). Predicting Stock Prices using Reinforcement Learning [Blog post]. Retrieved from [https://www.analyticsvidhya.com/blog/2020/10/reinforcement-learning-stock-price-prediction]
 [3] Xiong, Z., Liu, D., Wu, S., & Bai, Q. (2018). Stock price prediction based on reinforcement learning algorithm. International Journal of Intelligent Computing and Cybernetics, 11(1), 78-95. [4] Guo, C., Zhang, J., Yang, Z., & Yu, Y. (2017). Deep reinforcement learning for trading. In Proceedings of the 34th International Conference on Machine Learning-Volume 70 (pp. 1323-1332). JMLR. org.
